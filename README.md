@@ -1,8 +1,5 @@
-<<<<<<< HEAD
-# Inventory Management and Reporting System
-
-A comprehensive full-stack inventory solution built with a secure Spring Boot REST API and a dynamic React frontend, delivering role-based access, real-time stock monitoring, and analytical insights.
-
+# Inventory-Management-and-Reporting-System
+Full-stack Inventory Management System — Spring Boot 3 REST API with JWT authentication and role-based access (Admin/Supplier/Customer), React 18 dashboard with real-time low-stock alerts, email reporting, and analytics. Built as part of the Infosys Springboard Virtual Internship.
 ---
 
 ## Table of Contents
@@ -409,9 +406,10 @@ Includes:
 
 - **Static Dropdown Values**
   Category and supplier IDs are currently hardcoded in the frontend.
-=======
-# kethavath-naveen
-this is my first Repository.
-<br>
-Author- Kethavath Naveen
->>>>>>> 9eb74b49f99aa8b7cf8d77604c5f62796498c435
+## Changes & Improvements
+
+- Enhanced and customized the frontend user interface and user experience  
+- Integrated MySQL database with proper configuration  
+- Fixed backend runtime and configuration issues  
+- Implemented email notification system for alerts and reporting  
+- Cleaned and restructured the project for better organization and deployment  
