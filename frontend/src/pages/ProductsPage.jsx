@@ -26,7 +26,7 @@ export default function ProductsPage() {
     );
   }, [products, query]);
 
-  const canEdit = hasRole('CUSTOMER');
+  const canEdit = hasRole('SUPPLIER');
   const canDelete = hasRole('ADMIN');
 
   const handleSave = async (data) => {
@@ -66,7 +66,7 @@ export default function ProductsPage() {
                 onChange={(e) => setQuery(e.target.value)}
               />
             </div>
-            {hasRole('CUSTOMER') && (
+            {hasRole('SUPPLIER') && (
               <Link to="/add-product" className="btn btn-primary">
                 + Add Product
               </Link>
