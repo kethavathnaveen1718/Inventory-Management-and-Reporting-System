@@ -76,7 +76,7 @@ export default function RegisterPage() {
             <div className="login-stat-label">Add products</div>
           </div>
           <div>
-            <div className="login-stat-value">Customer</div>
+            <div className="login-stat-value">Staff</div>
             <div className="login-stat-label">View access</div>
           </div>
         </div>
@@ -133,7 +133,7 @@ export default function RegisterPage() {
             <select value={form.role} onChange={set('role')}>
               {Object.values(ROLES).map((r) => (
                 <option key={r} value={r}>
-                  {r}
+                  {r === 'CUSTOMER' ? 'STAFF' : r}
                 </option>
               ))}
             </select>

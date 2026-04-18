@@ -98,7 +98,7 @@ export default function AddUserPage() {
               <div className="form-group">
                 <label>Role *</label>
                 <select value={form.role} onChange={set('role')}>
-                  {Object.values(ROLES).map(r => <option key={r} value={r}>{r}</option>)}
+                  {Object.values(ROLES).map(r => <option key={r} value={r}>{r === 'CUSTOMER' ? 'STAFF' : r}</option>)}
                 </select>
                 {errors.role && <div className="error-msg">{errors.role}</div>}
               </div>
