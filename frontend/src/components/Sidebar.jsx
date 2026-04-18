@@ -6,7 +6,7 @@ const NAV = [
   { to: '/products',    icon: '📦', label: 'Products',    role: null },
   { to: '/reports',     icon: '📊', label: 'Reports',     role: null },
   { to: '/add-product', icon: '＋', label: 'Add Product', role: 'STAFF' },
-  // { to: '/add-user',    icon: '👤', label: 'Add User',    role: 'ADMIN' },
+  { to: '/add-user',    icon: '👤', label: 'Add User',    role: 'ADMIN' },
 ];
 
 export default function Sidebar({ lowStockCount = 0 }) {
